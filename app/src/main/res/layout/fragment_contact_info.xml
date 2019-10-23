@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E4E4"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/txt_agenda_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="12dp"
+        android:paddingTop="9dp"
+        android:paddingBottom="9dp"
+        android:textSize="17sp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/txt_agenda_E-mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="12dp"
+        android:paddingTop="9dp"
+        android:paddingBottom="9dp"
+        android:textSize="17sp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/txt_agenda_Telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:drawablePadding="12dp"
+        android:paddingTop="9dp"
+        android:paddingBottom="9dp"
+        android:textSize="17sp"
+        android:visibility="invisible"/>
+
+</LinearLayout>
